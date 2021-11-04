@@ -9,6 +9,7 @@ This example runs a object detection model in Node.js, and hosts the model throu
 
 To launch the demo, do the following steps:
 
+
 1. Go to file `.firebaserc` and update `projects.default` with your own firebase project name.
 2. Run the following commands:
 
@@ -18,6 +19,8 @@ npm install
 firebase serve
 ```
 3. Open the website displayed in the log
+
+
 
 It will take several seconds to load and warm up the model. Once the page is loaded, you can upload an JPEG image and test. Following is an example output:
 
